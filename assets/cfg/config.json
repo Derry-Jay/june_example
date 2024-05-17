@@ -1,0 +1,23 @@
+{
+  "xl": "18",
+  "xsm": "8",
+  "2xl": "20",
+  "3xl": "22",
+  "4xl": "24",
+  "small": "10",
+  "large": "16",
+  "medium": "14",
+  "normal": "12",
+  "name": "App-Name",
+  "splash_screen_delay": "3",
+  "minimum_password_length": "6",
+  "maximum_password_length": "12",
+  "grey_color_variant_1": {
+    "alpha": "104",
+    "color": "757575"
+  },
+  "gold_color_variant_1": {
+    "alpha": "255",
+    "color": "FFB24D"
+  }
+}
