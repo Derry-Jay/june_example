@@ -57,7 +57,8 @@ Widget appleDefaultContextBuilder(
       editableTextState: editableTextState);
 }
 
-Widget materialDefaultContextBuilder(BuildContext context, EditableTextState editableTextState) {
+Widget materialDefaultContextBuilder(
+    BuildContext context, EditableTextState editableTextState) {
   return AdaptiveTextSelectionToolbar.editableText(
       editableTextState: editableTextState);
 }
@@ -93,7 +94,8 @@ bool isImagePath(String str) {
   return str.isImagePath;
 }
 
-T getState<T extends JuneState>(T dependency, [String? tag, bool? permanent]) {
+T getState<T extends JuneState>(T Function() dependency,
+    [String? tag, bool? permanent]) {
   return June.getState(dependency, tag: tag, permanent: permanent ?? true);
 }
 
